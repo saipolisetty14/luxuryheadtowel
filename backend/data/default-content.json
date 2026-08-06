@@ -1,0 +1,119 @@
+{
+  "site": {
+    "name": "Luxury Head Towels",
+    "domain": "luxuryheadtowels.co.uk",
+    "phone": "0204 537 4441",
+    "email": "hello@luxuryheadtowels.co.uk",
+    "contactEmail": "sales@thecreativehealthcare.com",
+    "shopUrl": "https://shop.pharmaceutra.co.uk/",
+    "amazonUrl": "https://www.amazon.co.uk/dp/B0HCQQLJWZ?th=1",
+    "facebook": "#",
+    "instagram": "#",
+    "twitter": "#"
+  },
+  "nav": {
+    "links": [
+      { "id": 1, "label": "About", "href": "#about" },
+      { "id": 2, "label": "Product", "href": "#product" },
+      { "id": 3, "label": "Features", "href": "#features" },
+      { "id": 4, "label": "Benefits", "href": "#benefits" },
+      { "id": 5, "label": "FAQ", "href": "#faq" },
+      { "id": 6, "label": "Contact", "href": "#enquiry" }
+    ]
+  },
+  "hero": {
+    "overline": "100% Egyptian Cotton",
+    "headline": "Elevate Your",
+    "headlineAccent": "Hair Care Ritual",
+    "subheadline": "Indulge in the luxury of 100% Egyptian Cotton — crafted for discerning individuals who believe the finest details transform everyday rituals.",
+    "ctaText": "Enquire Now",
+    "ctaHref": "#enquiry",
+    "secondaryCtaText": "Discover Our Collection",
+    "secondaryCtaHref": "#product"
+  },
+  "about": {
+    "overline": "Our Story",
+    "heading": "Crafted with Passion",
+    "subheading": "From Raw Material to Refined Comfort",
+    "description": "Our premium head towels are made from the finest 100% Egyptian Cotton, renowned for its exceptional absorbency and softness. Each towel is thoughtfully designed to be gentle on hair whilst effectively removing moisture — turning your daily routine into a moment of indulgence.",
+    "features": [
+      { "id": 1, "title": "100% Egyptian Cotton", "description": "Premium grade long-staple cotton fibres for unparalleled softness and durability." },
+      { "id": 2, "title": "Ultra Absorbent", "description": "Draws moisture from hair quickly, significantly reducing drying time." },
+      { "id": 3, "title": "Gentle on Hair", "description": "Reduces frizz and breakage compared to regular towels — better hair health." }
+    ]
+  },
+  "product": {
+    "overline": "The Finest Collection",
+    "heading": "Our Product",
+    "description": "Each head towel is meticulously crafted to provide the ultimate hair care experience. Available in four elegant colourways to suit every style.",
+    "images": [
+      { "id": 1, "label": "White", "alt": "White with Blue Trim — Luxury Head Towels 100% Cotton Hair Towel Wrap guide", "url": "" },
+      { "id": 2, "label": "Blue", "alt": "Blue with White Trim — Luxury Head Towels 100% Cotton Hair Towel Wrap guide", "url": "" },
+      { "id": 3, "label": "Salmon Pink", "alt": "Salmon Pink — Luxury Head Towels 100% Cotton Hair Towel Wrap guide", "url": "" },
+      { "id": 4, "label": "Grey", "alt": "Grey — Luxury Head Towels 100% Cotton Hair Towel Wrap guide", "url": "" }
+    ]
+  },
+  "features": {
+    "overline": "Why Choose Us",
+    "heading": "Designed for Excellence",
+    "items": [
+      { "id": 1, "icon": "droplets", "title": "Ultra Absorbent", "body": "Draws moisture from hair up to 3× faster than conventional cotton towels — less drying time, less damage." },
+      { "id": 2, "icon": "wind", "title": "Quick Drying", "body": "Lightweight construction ensures the towel dries quickly between uses, staying fresh and hygienic." },
+      { "id": 3, "icon": "shield", "title": "Gentle Formula", "body": "Pure cotton construction prevents hair breakage and reduces frizz — no microfibre friction." },
+      { "id": 4, "icon": "star", "title": "Premium Quality", "body": "100% Egyptian Cotton — the gold standard in luxury textiles, renowned across generations." },
+      { "id": 5, "icon": "heart", "title": "Hair Friendly", "body": "Designed with hair health in mind, suitable for all hair types from fine to thick and curly." },
+      { "id": 6, "icon": "clock", "title": "Long Lasting", "body": "Built to maintain quality and softness through hundreds of washes — a lasting investment." }
+    ]
+  },
+  "benefits": {
+    "overline": "Benefits",
+    "heading": "The Luxury Difference",
+    "items": [
+      { "id": 1, "title": "Reduces Drying Time", "body": "The fast-absorbing Egyptian Cotton dramatically cuts the time your hair needs to dry — great for busy mornings." },
+      { "id": 2, "title": "Minimises Frizz & Breakage", "body": "Soft, smooth cotton fibres are far gentler on the hair cuticle than rougher towels, reducing split ends and frizz." },
+      { "id": 3, "title": "Hands-Free Convenience", "body": "The secure wrap design lets you continue your morning routine completely hands-free." },
+      { "id": 4, "title": "Luxury Every Day", "body": "Transform your normal hair care routine into a relaxing and premium experience you will look forward to." }
+    ]
+  },
+  "options": {
+    "overline": "Make It Yours",
+    "heading": "Choose Your Colour",
+    "description": "Each head towel is available in four carefully considered colourways. All share the same premium Egyptian Cotton construction — only the colour changes.",
+    "colours": [
+      { "id": 1, "name": "White", "tagline": "White with Blue Trim", "description": "Timeless, clean elegance — the classic choice for a refined aesthetic.", "url": "" },
+      { "id": 2, "name": "Blue", "tagline": "Blue with White Trim", "description": "A calm, sophisticated hue that brings a contemporary touch to your routine.", "url": "" },
+      { "id": 3, "name": "Salmon Pink", "tagline": "Salmon Pink", "description": "Warm and inviting — a gentle blush that adds a hint of luxury to any bathroom.", "url": "" },
+      { "id": 4, "name": "Grey", "tagline": "Grey", "description": "Understated and versatile — pairs beautifully with any bathroom palette.", "url": "" }
+    ]
+  },
+  "faq": {
+    "overline": "Support",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      { "id": 1, "question": "What material are the head towels made from?", "answer": "Our Luxury Head Towels are made from premium 100% Egyptian Cotton — one of the finest, most absorbent cotton varieties in the world, renowned for its softness, durability, and comfort." },
+      { "id": 2, "question": "How do I use a head towel?", "answer": "Simply place the towel over your head after washing, tuck or wrap the loop/button to secure it in place, and allow your hair to dry naturally. The hands-free design means you can continue your routine while your hair dries." },
+      { "id": 3, "question": "How do I wash and care for my Luxury Head Towel?", "answer": "Machine wash at 40°C with similar colours. Tumble dry on a low setting or air dry naturally. Avoid bleach and fabric softeners to maintain the cotton's natural absorbency and softness." },
+      { "id": 4, "question": "Is it suitable for all hair types?", "answer": "Yes. Our one-size-fits-all head towel is designed to suit all hair types and lengths — fine, thick, curly, straight, short, or long. It works equally well for women and children." },
+      { "id": 5, "question": "What size is the head towel?", "answer": "Our head towels are designed as one size fits all, offering a comfortable and secure fit for the vast majority of head sizes. The wrap design adjusts naturally to suit you." },
+      { "id": 6, "question": "Where are the head towels manufactured?", "answer": "Our Luxury Head Towels are proudly made in the United Kingdom. We are committed to supporting British craftsmanship and ensuring the highest standards of quality." },
+      { "id": 7, "question": "What colours are available?", "answer": "We currently offer four elegant colour options: White with Blue Trim, Blue with White Trim, Salmon Pink, and Grey. All reflect the premium aesthetic of the Luxury Head Towels brand." },
+      { "id": 8, "question": "Are these suitable as gifts?", "answer": "Absolutely. Our Luxury Head Towels make a thoughtful, premium gift for birthdays, Mother's Day, pamper hampers, or any occasion. Please contact us for gift or bulk enquiries." }
+    ]
+  },
+  "footer": {
+    "about": "Premium 100% Egyptian Cotton head towels crafted for modern beauty routines. Bringing luxury into everyday life.",
+    "quickLinks": [
+      { "id": 1, "label": "About", "href": "#about" },
+      { "id": 2, "label": "Our Product", "href": "#product" },
+      { "id": 3, "label": "Features", "href": "#features" },
+      { "id": 4, "label": "FAQ", "href": "#faq" },
+      { "id": 5, "label": "Contact Us", "href": "#enquiry" }
+    ],
+    "legalLinks": [
+      { "id": 1, "label": "Privacy Policy", "href": "#" },
+      { "id": 2, "label": "Terms & Conditions", "href": "#" },
+      { "id": 3, "label": "Cookie Policy", "href": "#" }
+    ],
+    "copyright": "Luxury Head Towels. All rights reserved. Registered in England & Wales."
+  }
+}

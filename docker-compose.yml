@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: lht-backend
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: 3001
+      NODE_ENV: production
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-changeme123}
+      JWT_SECRET: ${JWT_SECRET:-change-this-jwt-secret}
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER}
+      SMTP_PASS: ${SMTP_PASS}
+      SMTP_FROM: ${SMTP_FROM:-Luxury Head Towels <noreply@luxuryheadtowels.co.uk>}
+      CONTACT_EMAIL: ${CONTACT_EMAIL:-sales@thecreativehealthcare.com}
+      FRONTEND_URL: ${FRONTEND_URL:-https://luxuryheadtowels.co.uk}
+      BACKEND_URL: ${BACKEND_URL:-https://api.luxuryheadtowels.co.uk}
+    volumes:
+      # Persist uploads and content database outside the container
+      - lht-uploads:/app/uploads
+      - lht-data:/app/data
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3001/api/content"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  lht-uploads:
+  lht-data:
